@@ -46,7 +46,7 @@ Download & install dari: [https://www.python.org/downloads/](https://www.python.
 ### 2. Install Modul Wajib
 
 ```
-git clone https://github.com/AirdropFamilyIDN-V2-0/PHAROS-AUTO.git
+[git clone https://github.com/AirdropFamilyIDN-V2-0/PHAROS-AUTO.git](https://github.com/rekajunardi/PHAROS-BOT)
 ```
 ```
 cd PHAROS-AUTO
