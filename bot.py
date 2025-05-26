@@ -12,7 +12,6 @@ from config import *
 import datetime
 import sys
 
-
 console = Console()
 
 
@@ -396,9 +395,8 @@ def main(jumlah_tx=1, jumlah_swap=1, jumlah_lp=1, show_banner=True):
         print("=" * 50)
 
 
-
-# +++++++++++++++++++ FITUR LOOPING ++++++++++++++++++++++++++++++
-
+import sys
+import time
 
 def format_time(seconds):
     hours = seconds // 3600
@@ -407,12 +405,11 @@ def format_time(seconds):
     return f"{hours:02d}:{minutes:02d}:{secs:02d}"
 
 if __name__ == "__main__":
-
-    INTERVAL = 43200	# waktu untuk jeda 
-    jumlah_tx = 30	# jumlah tx yg akan di proses
-    jumlah_swap = 30	# jumlah swap
-    jumlah_lp = 10	# jumlah lp
-    total_runs = 1  # total running per wallet
+    INTERVAL = 43200  
+    jumlah_tx = 30
+    jumlah_swap = 30
+    jumlah_lp = 10
+    total_runs = 9999999  # total looping 
 
     for run_count in range(1, total_runs + 1):
         print(f"\n===== Looping ke-{run_count} =====")
